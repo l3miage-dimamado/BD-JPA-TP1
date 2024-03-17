@@ -17,6 +17,6 @@ public class AssociationEntity {
     private String secretaryName;
     @Enumerated(EnumType.STRING)
     private AssociationType associationType;
-    @OneToMany(mappedBy = "associationEntity")
-    private Set<FederationEntity> federationEntities;
+    @OneToMany(mappedBy = "association")
+    private Set<FederationEntity> federations;
 }

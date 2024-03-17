@@ -9,5 +9,5 @@ public class FederationEntity {
     private String name;
     private Boolean isFageMembership;
     @ManyToOne
-    private AssociationEntity associationEntity;
+    private AssociationEntity association;
 }
