@@ -3,6 +3,7 @@ package fr.uga.l3miage.tp1.exo2.models;
 import fr.uga.l3miage.tp1.exo2.enums.Sex;
 
 import javax.persistence.*;
+import java.math.BigInteger;
 import java.util.Date;
 import java.util.UUID;
 
@@ -11,7 +12,7 @@ import java.util.UUID;
 public class NetflixUserEntity {
     @Id
     @Column(name = "id")
-    private long id;
+    private BigInteger id;
     @Column(name = "uuid")
     private String uuid;
     @Column(name = "lastname")
