@@ -1,12 +1,16 @@
 package fr.uga.l3miage.tp1.exo2.models;
 
 import fr.uga.l3miage.tp1.exo2.enums.Sex;
+import lombok.Getter;
+import lombok.experimental.Accessors;
 
 import javax.persistence.*;
 import java.math.BigInteger;
 import java.util.Date;
 import java.util.UUID;
 
+@Accessors
+@Getter
 @Entity
 @Table(name = "netflix_user")
 public class NetflixUserEntity {

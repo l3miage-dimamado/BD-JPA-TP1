@@ -1,9 +1,14 @@
 package fr.uga.l3miage.tp1.exo2.models;
 
+import lombok.Getter;
+import lombok.experimental.Accessors;
+
 import javax.persistence.*;
 import java.math.BigInteger;
 
 @Entity
+@Accessors
+@Getter
 @Table(name = "netflix_account")
 public class NetflixAccountEntity {
     @Id
