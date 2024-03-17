@@ -10,8 +10,7 @@ import javax.persistence.OneToOne;
 import java.util.UUID;
 
 @Entity
-@Accessors
-@Getter
+
 public class SessionEntity {
     @Id
     private UUID idSession;

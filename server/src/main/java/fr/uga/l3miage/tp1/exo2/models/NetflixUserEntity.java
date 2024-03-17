@@ -9,8 +9,7 @@ import java.math.BigInteger;
 import java.util.Date;
 import java.util.UUID;
 
-@Accessors
-@Getter
+
 @Entity
 @Table(name = "netflix_user")
 public class NetflixUserEntity {

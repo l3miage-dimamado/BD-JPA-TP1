@@ -9,8 +9,7 @@ import javax.persistence.OneToOne;
 import java.time.OffsetDateTime;
 
 @Entity
-@Accessors
-@Getter
+
 public class UserEntity {
     @Id
     private Long idUser;
